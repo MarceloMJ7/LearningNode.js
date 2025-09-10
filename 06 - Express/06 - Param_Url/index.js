@@ -22,9 +22,7 @@ app.get('/users/:id', (req,res) => {
    
 })
 
-app.get('/', (req,res) => {
-    res.send('testando porta')
-})
+
 
 app.listen(port, () => {
     console.log('testando')
